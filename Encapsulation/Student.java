@@ -30,8 +30,8 @@ public class Student {
     public static void main(String[] args) {
         Student student = new Student();
         student.setAge(-15);//call kiya
-        student.name="Arpit";
-        student.rollnumber=42;
+        student.setName("Arpit");
+        student.setRollnumber(42);
         System.out.println(student.getAge());
     }
 }
