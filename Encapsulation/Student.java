@@ -1,7 +1,10 @@
+// Encapsulation    
+// data hiding
+
 public class Student {
     private int age ;
     public int getAge() {
-        return age;
+        return this.age = age ;
     }
     public void setAge(int age) {
         if(age < 0)
@@ -31,6 +34,7 @@ public class Student {
         Student student = new Student();
         student.setAge(-15);//call kiya
         student.setName("Arpit");
+        System.out.println(student.getName());
         student.setRollnumber(42);
         System.out.println(student.getAge());
     }
